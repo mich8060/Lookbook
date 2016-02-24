@@ -47,27 +47,29 @@ html, body {
 .lookbook-wrapper {
   background: #d88e4d url(../img/hero.jpg) top center no-repeat;
   background-size: 1400px 934px;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
-/* line 23, ../sass/lookbook.scss */
+/* line 25, ../sass/lookbook.scss */
 .lookbook-hero {
   height: 500px;
   margin-bottom: -120px;
   position: relative;
 }
-/* line 28, ../sass/lookbook.scss */
+/* line 30, ../sass/lookbook.scss */
 .lookbook-hero-headline {
   font-size: 48px;
   font-weight: 800;
   line-height: 40px;
 }
-/* line 35, ../sass/lookbook.scss */
+/* line 37, ../sass/lookbook.scss */
 .lookbook-hero-subheadline {
   font-size: 28px;
   line-height: 30px;
   margin-bottom: 20px;
 }
-/* line 41, ../sass/lookbook.scss */
+/* line 43, ../sass/lookbook.scss */
 .lookbook-hero-copy {
   color: #fff;
   left: 50%;
@@ -83,33 +85,33 @@ html, body {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
-  /* line 55, ../sass/lookbook.scss */
+  /* line 57, ../sass/lookbook.scss */
   .lookbook-wrapper {
     background: #d88e4d url(../img/hero.jpg) top center no-repeat;
     background-size: 900px 600px;
   }
 
-  /* line 60, ../sass/lookbook.scss */
+  /* line 62, ../sass/lookbook.scss */
   .lookbook-hero {
     height: 370px;
   }
-  /* line 63, ../sass/lookbook.scss */
+  /* line 65, ../sass/lookbook.scss */
   .lookbook-hero-headline {
     font-size: 28px;
     line-height: 30px;
   }
-  /* line 68, ../sass/lookbook.scss */
+  /* line 70, ../sass/lookbook.scss */
   .lookbook-hero-subheadline {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  /* line 73, ../sass/lookbook.scss */
+  /* line 75, ../sass/lookbook.scss */
   .lookbook-hero-copy {
     top: 45%;
     width: 100%;
   }
 }
-/* line 80, ../sass/lookbook.scss */
+/* line 82, ../sass/lookbook.scss */
 .lookbook-container {
   padding: 30px 10px 10px 10px;
   -webkit-box-sizing: border-box;
@@ -119,7 +121,7 @@ html, body {
   box-sizing: border-box;
 }
 
-/* line 85, ../sass/lookbook.scss */
+/* line 87, ../sass/lookbook.scss */
 .lookbook-dialog {
   left: 0;
   height: 100%;
@@ -139,7 +141,7 @@ html, body {
   -o-pointer-events: none;
   pointer-events: none;
 }
-/* line 97, ../sass/lookbook.scss */
+/* line 99, ../sass/lookbook.scss */
 .lookbook-dialog.open {
   opacity: 1;
   -webkit-pointer-events: auto;
@@ -148,7 +150,7 @@ html, body {
   -o-pointer-events: auto;
   pointer-events: auto;
 }
-/* line 102, ../sass/lookbook.scss */
+/* line 104, ../sass/lookbook.scss */
 .lookbook-dialog.open .lookbook-dialog-content {
   -webkit-transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
@@ -156,12 +158,12 @@ html, body {
   -o-transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
   transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
 }
-/* line 108, ../sass/lookbook.scss */
+/* line 110, ../sass/lookbook.scss */
 .lookbook-dialog img {
   display: block;
   width: 100%;
 }
-/* line 113, ../sass/lookbook.scss */
+/* line 115, ../sass/lookbook.scss */
 .lookbook-dialog-overlay {
   background: rgba(34, 34, 34, 0.5);
   left: 0;
@@ -176,7 +178,7 @@ html, body {
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 125, ../sass/lookbook.scss */
+/* line 127, ../sass/lookbook.scss */
 .lookbook-dialog-content {
   background: #fff;
   left: 50%;
@@ -196,7 +198,7 @@ html, body {
   -o-transform: scale3d(0.9, 0.9, 1) translate3d(-55%, -50%, 0);
   transform: scale3d(0.9, 0.9, 1) translate3d(-55%, -50%, 0);
 }
-/* line 137, ../sass/lookbook.scss */
+/* line 139, ../sass/lookbook.scss */
 .lookbook-dialog-content-close {
   position: absolute;
   right: 15px;
@@ -204,19 +206,19 @@ html, body {
   width: 20px;
   z-index: 9;
 }
-/* line 146, ../sass/lookbook.scss */
+/* line 148, ../sass/lookbook.scss */
 .lookbook-dialog-image {
   float: left;
   position: relative;
   width: 45%;
 }
-/* line 151, ../sass/lookbook.scss */
+/* line 153, ../sass/lookbook.scss */
 .lookbook-dialog-image-thumbs {
   position: absolute;
   top: 10px;
   left: 10px;
 }
-/* line 156, ../sass/lookbook.scss */
+/* line 158, ../sass/lookbook.scss */
 .lookbook-dialog-image-thumbs img {
   border: solid 1px #999;
   cursor: pointer;
@@ -228,27 +230,27 @@ html, body {
   -o-transition: border 0.3s ease;
   transition: border 0.3s ease;
 }
-/* line 164, ../sass/lookbook.scss */
+/* line 166, ../sass/lookbook.scss */
 .lookbook-dialog-image-thumbs img:hover {
   border: solid 1px #FFF;
 }
-/* line 168, ../sass/lookbook.scss */
+/* line 170, ../sass/lookbook.scss */
 .lookbook-dialog-image-thumbs img.selected {
   border: solid 1px #FFF;
 }
-/* line 175, ../sass/lookbook.scss */
+/* line 177, ../sass/lookbook.scss */
 .lookbook-dialog-cap {
   clear: both;
   padding: 20px 0;
   text-align: center;
 }
-/* line 181, ../sass/lookbook.scss */
+/* line 183, ../sass/lookbook.scss */
 .lookbook-dialog-cap .btn-secondary {
   float: none;
   line-height: 1.15;
   margin: 0 auto;
 }
-/* line 188, ../sass/lookbook.scss */
+/* line 190, ../sass/lookbook.scss */
 .lookbook-dialog-product {
   bottom: 0;
   left: 45%;
@@ -263,12 +265,12 @@ html, body {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 199, ../sass/lookbook.scss */
+/* line 201, ../sass/lookbook.scss */
 .lookbook-dialog-product-container {
   background: #fff;
   padding: 10px;
 }
-/* line 204, ../sass/lookbook.scss */
+/* line 206, ../sass/lookbook.scss */
 .lookbook-dialog-product a {
   display: block;
   float: left;
@@ -281,19 +283,19 @@ html, body {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 213, ../sass/lookbook.scss */
+/* line 215, ../sass/lookbook.scss */
 .lookbook-dialog-product a.lookbook-dialog-product-featured {
   width: 50%;
 }
-/* line 216, ../sass/lookbook.scss */
+/* line 218, ../sass/lookbook.scss */
 .lookbook-dialog-product a.lookbook-dialog-product-featured .lookbook-dialog-product-container {
   padding: 20px 40px;
 }
-/* line 221, ../sass/lookbook.scss */
+/* line 223, ../sass/lookbook.scss */
 .lookbook-dialog-product a img {
   margin-bottom: 10px;
 }
-/* line 226, ../sass/lookbook.scss */
+/* line 228, ../sass/lookbook.scss */
 .lookbook-dialog-product-brand {
   color: #222;
   cursor: pointer;
@@ -304,7 +306,7 @@ html, body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 237, ../sass/lookbook.scss */
+/* line 239, ../sass/lookbook.scss */
 .lookbook-dialog-product-name {
   color: #666;
   font-size: 13px;
@@ -313,12 +315,12 @@ html, body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 246, ../sass/lookbook.scss */
+/* line 248, ../sass/lookbook.scss */
 .lookbook-dialog-product-price {
   color: #222;
   font-size: 14px;
 }
-/* line 251, ../sass/lookbook.scss */
+/* line 253, ../sass/lookbook.scss */
 .lookbook-dialog-product-more {
   border-top: solid 1px #ededed;
   font-size: 14px;
@@ -327,7 +329,7 @@ html, body {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 899px) {
-  /* line 262, ../sass/lookbook.scss */
+  /* line 264, ../sass/lookbook.scss */
   .lookbook-dialog-content {
     position: absolute;
     top: 50px;
@@ -349,7 +351,7 @@ html, body {
     -o-transform: none;
     transform: none;
   }
-  /* line 276, ../sass/lookbook.scss */
+  /* line 278, ../sass/lookbook.scss */
   .lookbook-dialog-content-close {
     background: #fff;
     background: rgba(255, 255, 255, 0.5);
@@ -358,7 +360,7 @@ html, body {
     top: 60px;
     position: fixed;
   }
-  /* line 286, ../sass/lookbook.scss */
+  /* line 288, ../sass/lookbook.scss */
   .lookbook-dialog.open {
     opacity: 1;
     -webkit-pointer-events: auto;
@@ -367,7 +369,7 @@ html, body {
     -o-pointer-events: auto;
     pointer-events: auto;
   }
-  /* line 291, ../sass/lookbook.scss */
+  /* line 293, ../sass/lookbook.scss */
   .lookbook-dialog.open .lookbook-dialog-content {
     -webkit-transform: none;
     -moz-transform: none;
@@ -375,25 +377,25 @@ html, body {
     -o-transform: none;
     transform: none;
   }
-  /* line 297, ../sass/lookbook.scss */
+  /* line 299, ../sass/lookbook.scss */
   .lookbook-dialog-image {
     float: none;
     position: relative;
     width: 100%;
   }
-  /* line 303, ../sass/lookbook.scss */
+  /* line 305, ../sass/lookbook.scss */
   .lookbook-dialog-product {
     left: 0;
     padding: 10px;
     position: static;
   }
-  /* line 309, ../sass/lookbook.scss */
+  /* line 311, ../sass/lookbook.scss */
   .lookbook-dialog-product a {
     width: 33.3%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 599px) {
-  /* line 318, ../sass/lookbook.scss */
+  /* line 320, ../sass/lookbook.scss */
   .lookbook-dialog-content {
     position: absolute;
     top: 0;
@@ -415,14 +417,14 @@ html, body {
     -o-transform: none;
     transform: none;
   }
-  /* line 332, ../sass/lookbook.scss */
+  /* line 334, ../sass/lookbook.scss */
   .lookbook-dialog-content-close {
     background: #fff;
     background: rgba(255, 255, 255, 0.5);
     padding: 10px;
     position: fixed;
   }
-  /* line 340, ../sass/lookbook.scss */
+  /* line 342, ../sass/lookbook.scss */
   .lookbook-dialog.open {
     opacity: 1;
     -webkit-pointer-events: auto;
@@ -431,7 +433,7 @@ html, body {
     -o-pointer-events: auto;
     pointer-events: auto;
   }
-  /* line 345, ../sass/lookbook.scss */
+  /* line 347, ../sass/lookbook.scss */
   .lookbook-dialog.open .lookbook-dialog-content {
     -webkit-transform: none;
     -moz-transform: none;
@@ -439,32 +441,32 @@ html, body {
     -o-transform: none;
     transform: none;
   }
-  /* line 351, ../sass/lookbook.scss */
+  /* line 353, ../sass/lookbook.scss */
   .lookbook-dialog-image {
     float: none;
     position: relative;
     width: 100%;
   }
-  /* line 357, ../sass/lookbook.scss */
+  /* line 359, ../sass/lookbook.scss */
   .lookbook-dialog-product {
     left: 0;
     padding: 10px;
     position: static;
   }
-  /* line 363, ../sass/lookbook.scss */
+  /* line 365, ../sass/lookbook.scss */
   .lookbook-dialog-product a {
     width: 50%;
   }
-  /* line 366, ../sass/lookbook.scss */
+  /* line 368, ../sass/lookbook.scss */
   .lookbook-dialog-product a.lookbook-dialog-product-featured {
     width: 50%;
   }
-  /* line 369, ../sass/lookbook.scss */
+  /* line 371, ../sass/lookbook.scss */
   .lookbook-dialog-product a.lookbook-dialog-product-featured .lookbook-dialog-product-container {
     padding: 10px;
   }
 }
-/* line 378, ../sass/lookbook.scss */
+/* line 380, ../sass/lookbook.scss */
 .lookbook {
   color: #222;
   display: block;
@@ -489,11 +491,11 @@ html, body {
   -o-perspective: 1000;
   perspective: 1000;
 }
-/* line 392, ../sass/lookbook.scss */
+/* line 394, ../sass/lookbook.scss */
 .lookbook:hover .look-front {
   opacity: 0;
 }
-/* line 397, ../sass/lookbook.scss */
+/* line 399, ../sass/lookbook.scss */
 .lookbook-gallery {
   background: #fff;
   height: 100%;
@@ -510,12 +512,12 @@ html, body {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 407, ../sass/lookbook.scss */
+/* line 409, ../sass/lookbook.scss */
 .lookbook-info {
   margin: 10px -10px -10px -10px;
   text-align: center;
 }
-/* line 411, ../sass/lookbook.scss */
+/* line 413, ../sass/lookbook.scss */
 .lookbook-info-name {
   border-top: solid 1px #ededed;
   color: #222;
@@ -525,7 +527,7 @@ html, body {
   line-height: 15px;
   padding: 10px;
 }
-/* line 423, ../sass/lookbook.scss */
+/* line 425, ../sass/lookbook.scss */
 .lookbook .look-front {
   -webkit-transition: opacity 0.5s ease;
   -moz-transition: opacity 0.5s ease;
@@ -533,7 +535,7 @@ html, body {
   -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
-/* line 428, ../sass/lookbook.scss */
+/* line 430, ../sass/lookbook.scss */
 .lookbook-look {
   background: #ededed;
   overflow: hidden;
@@ -546,7 +548,7 @@ html, body {
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 439, ../sass/lookbook.scss */
+/* line 441, ../sass/lookbook.scss */
 .lookbook-look-content {
   bottom: 0;
   left: 0;
@@ -559,12 +561,12 @@ html, body {
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 447, ../sass/lookbook.scss */
+/* line 449, ../sass/lookbook.scss */
 .lookbook-look-content img {
   position: absolute;
   width: 100%;
 }
-/* line 453, ../sass/lookbook.scss */
+/* line 455, ../sass/lookbook.scss */
 .lookbook-look:before {
   content: "";
   display: block;
@@ -577,13 +579,13 @@ html, body {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 899px) {
-  /* line 463, ../sass/lookbook.scss */
+  /* line 465, ../sass/lookbook.scss */
   .lookbook {
     width: 50%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 599px) {
-  /* line 469, ../sass/lookbook.scss */
+  /* line 471, ../sass/lookbook.scss */
   .lookbook {
     width: 100%;
   }
